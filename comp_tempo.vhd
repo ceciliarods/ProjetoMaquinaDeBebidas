@@ -9,7 +9,7 @@ use IEEE.std_logic_1164.all;
 
 entity comp_tempo is
     port(
-        tempo   : in  std_logic_vector(5 downto 0);
+        tempo   : in  std_logic_vector(4 downto 0);
         saida   : out std_logic  -- igual a 1 quando o contador = 011110
     );
 end entity;
